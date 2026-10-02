@@ -1,16 +1,44 @@
-## Hi there 👋
+# Paulo Henrique Ferreira Garcia
 
-<!--
-**hfgpaulo/hfgpaulo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Analista e Desenvolvedor de Sistemas Pleno** · Santo André, SP, Brasil
 
-Here are some ideas to get you started:
+Desenvolvedor poliglota com mais de 5 anos de experiência construindo e sustentando **APIs e sistemas web em produção**. Atuo ponta a ponta — da análise de escopo à entrega e deploy — com foco em **integração e modernização de sistemas legados**, apoiado em forte domínio das regras de negócio.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### Stack
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL%2FMariaDB-4479A1?style=flat&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+
+**Frameworks:** Fiber (Go) · Slim (PHP) · Django (Python)
+**Práticas:** APIs REST · testes automatizados (unitários, integração, E2E) · CI/CD · Docker Compose · observabilidade (Grafana, Loki, logs estruturados) · Code Review · metodologias ágeis
+
+---
+
+### Projeto em destaque
+
+#### [Regulatory Compliance Engine](https://github.com/hfgpaulo/regulatory-compliance-engine)
+
+Motor de conformidade regulatória para a **tropicalização de serviços financeiros (EUA → Brasil)**: dada uma operação, responde *"pode operar no Brasil? o que precisa ser adaptado?"*, aplicando regras brasileiras (PLD/COAF, Câmbio/IOF) de forma configurável.
+
+- **Monorepo poliglota:** motor em **Go (Fiber)** + gateway legado em **PHP (Slim)**, atuando como *camada anticorrupção* entre os dois mundos.
+- **Dois bancos:** **MongoDB** (auditoria das avaliações) e **MySQL** (propostas no vocabulário legado), orquestrados por **Docker Compose**.
+- **Qualidade:** testes unitários, de integração e **E2E**, **CI (GitHub Actions)**, análise estática e logs estruturados em JSON.
+
+> Projeto pessoal, original e documentado — pensado para demonstrar arquitetura em camadas, injeção de dependência e integração legado ↔ moderno.
+
+---
+
+### Contato
+
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:pauloh.ferreiragarcia@gmail.com)
